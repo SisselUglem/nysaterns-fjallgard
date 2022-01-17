@@ -1,0 +1,181 @@
+body html {
+  width: 100%;
+  margin: 0%;
+}
+main {
+  margin: 0%;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 600;
+  color: rgb(117, 51, 51);
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.h2 {
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+  color: rgb(46, 46, 46);
+  letter-spacing: 0.5px;
+}
+
+.h3 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 500;
+  color: white;
+}
+
+.h3-r {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  color: rgb(117, 51, 51);
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: white;
+}
+
+.p {
+  color: rgb(46, 46, 46);
+}
+
+.p-s {
+  font-size: 11px;
+  line-height: 16px;
+  color: rgb(46, 46, 46);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.main-button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  border: none;
+  background-color: rgb(117, 51, 51);
+  padding: 9px 20px 9px 20px;
+  letter-spacing: 0.5px;
+}
+
+.main-button:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+  background-color: rgb(138, 81, 81);
+  color: white;
+}
+
+.main-button:focus {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+  background-color: rgb(138, 81, 81);
+  color: white;
+  border: none !important;
+}
+
+.main-button:active {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+  background-color: rgb(138, 81, 81);
+  color: white;
+  border: none !important;
+}
+
+.second-botton {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(29, 29, 29);
+  padding: 5px 15px 5px 15px;
+  letter-spacing: 0.5px;
+}
+
+.second-botton:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+  background-color: rgba(29, 29, 29, 0.733);
+}
+
+.zoom:hover {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 800px) {
+  h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .h3 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    color: white;
+  }
+
+  .p {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgb(46, 46, 46);
+  }
+}

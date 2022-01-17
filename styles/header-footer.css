@@ -1,0 +1,26 @@
+.navbar-dark {
+  background-color: rgba(33, 33, 33, 1);
+  text-transform: uppercase !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0.9rem !important;
+  padding-left: 0.9rem !important;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px !important;
+  line-height: 19px;
+}
+
+.nav-item:hover {
+  background-color: rgb(117, 51, 51);
+}
+
+footer {
+  background-color: rgba(33, 33, 33, 1);
+  height: 30vh;
+}

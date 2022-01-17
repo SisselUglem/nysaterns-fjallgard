@@ -1,0 +1,88 @@
+.aktiviteter__container {
+  flex-direction: row;
+}
+
+.aktiviteter-img {
+  display: none;
+}
+
+.skidor {
+  background-image: url(../assets/skidor.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.jakt {
+  background-image: url(../assets/jakt.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.bastu {
+  background-image: url(../assets/bastu.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.konferens {
+  background-image: url(../assets/konferens.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.vandring {
+  background-image: url(../assets/vandring.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.aktivitet {
+  border-left: 1px solid rgb(29, 29, 29);
+}
+
+.skidor__container {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 770px) { 
+
+}
+
+@media screen and (max-width: 800px) {
+  .aktiviteter__container {
+    flex-direction: column;
+  }
+
+  .aktiviteter-img {
+    display: block;
+  }
+
+  .skidor {
+    background-image: none;
+    height: 75vh;
+  }
+  
+  .jakt {
+    background-image: none;
+    height: 80vh;
+  }
+  
+  .bastu {
+    background-image: none;
+    height: 75vh;
+  }
+  .konferens {
+    background-image: url(../assets/banner-konferens.webp);
+    height: 75vh;
+  }
+
+}

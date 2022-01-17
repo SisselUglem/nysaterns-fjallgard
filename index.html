@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="Nysäterns Fjällgård" />
+    <meta
+      name="description"
+      content="Porten till Sonfjällets nationalpark året om!"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://kit.fontawesome.com/8c2d0c6396.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nysäterns Fjällgård</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/header-footer.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+
+  <body>
+    <header>
+      <video autoplay muted loop class="header__video-desktop">
+        <source src="assets/MVI_6646.MOV (1).mp4" type="video/mp4" />
+      </video>
+      <video autoplay loop muted playsinline class="header__video-mobile">
+        <source src="assets/header-mobile.mp4" type="video/mp4" />
+      </video>
+      <nav class="navbar navbar-expand-lg navbar-dark px-5 py-0">
+        <a href="index.html" class="navbar-brand">
+          <img
+            src="assets/logotype-white.svg"
+            alt="Logotype"
+            title="Nysäterns Fjällgård"
+            width="190"
+          />
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collection of nav links, forms, and other content for toggling -->
+        <div
+          id="navbarCollapse"
+          class="collapse navbar-collapse justify-content-start"
+        >
+          <div class="navbar-nav ml-auto">
+            <a href="#stugor" class="nav-item nav-link active"
+              ><span>stugor</span></a
+            >
+            <a href="#cafe" class="nav-item nav-link active"
+              ><span>bertas café & fjällpub</span></a
+            >
+            <a href="#bageri" class="nav-item nav-link active"
+              ><span>gårdsbageri</span></a
+            >
+            <a href="#contact" class="nav-item nav-link active"
+              ><span>kontakt</span></a
+            >
+          </div>
+        </div>
+      </nav>
+      <section class="banner container-xl d-flex">
+        <div class="banner__article d-flex">
+          <h1 class="d-flex">
+            Porten till Sonfjällets <br />nationalpark året om!
+          </h1>
+          <p class="banner__headline">
+            Vi som driver Nysäterns Fjällgård heter Marika och Pecka. <br />Vi
+            bor här med familjen och våra djur på fäboden hela året om.
+          </p>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="activities">
+        <div class="grid-template">
+          <a href="pages/actvities/actvities/vandring.html">
+            <div class="grid-item">Vandring</div>
+          </a>
+          <a href="pages/actvities/actvities/skidor.html">
+            <div class="grid-item">Skidor</div>
+          </a>
+          <a href="pages/actvities/actvities/jakt.html">
+            <div class="grid-item">Jakt & Fiske</div>
+          </a>
+          <a href="pages/actvities/actvities/bastu.html">
+            <div class="grid-item">Bastu</div>
+          </a>
+          <a href="pages/actvities/actvities/hastoslade.html">
+            <div class="grid-item">Häst & Släde</div>
+          </a>
+          <a href="pages/actvities/actvities/konferens.html">
+            <div class="grid-item">Konferens</div>
+          </a>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container-xl about__row d-flex">
+          <div class="about__col-1 d-flex">
+            <img
+              class="img-fluid"
+              src="assets/om-oss.png"
+              alt="Vi på Nysäterns Fjällgård"
+              title="Vi på Nysäterns Fjällgård"
+            />
+          </div>
+          <div class="about__col-2 d-flex">
+            <h2>Välkommen till oss</h2>
+            <h3>till en levande fäbod vid sonfjällets fot!</h3>
+            <p class="p about__text">
+              Vi som driver Nysäterns Fjällgård heter Marika och Pecka. Vi bor
+              här med familjen och våra djur på fäboden hela året om.
+            </p>
+            <p class="p">
+              Vintertid ligger kylan runt 8-15 minusgrader tack vare läget på
+              750 möh. Vårvintern ger oss en gassande och myggfri soltid i
+              vårsnön. Sommaren kan vara riktigt ljuvligt varm mestadels men så
+              kan det väl hända det bjuds på lite snöflingor i juli som
+              omväxling. Höstnaturen är frisk, färgrik och full med smakrika
+              skatter att samla in.
+            </p>
+            <button class="main-button">Läs mer</button>
+          </div>
+          <div class="about__img-mobile pt-4">
+            <img
+              class="img-fluid"
+              src="assets/om-oss.png"
+              alt="Vi på Nysäterns Fjällgård"
+              title="Vi på Nysäterns Fjällgård"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="bageri" class="bageri">
+        <div class="bageri__container container-xl d-flex">
+          <div class="bageri__article d-flex">
+            <h2 class="h2 pb-2">Gårdsbageri</h2>
+            <h3 class="h3">
+              2019 fick vi äran att motta 3e pris i tävlingen
+              <br />Jämtland/Härjedalens godaste tunnbröd!
+            </h3>
+            <p class="pt-3">
+              Kom upp till oss för att provsmaka vårt nybakta tunnbröd. Varför
+              inte köpa med en påse hem med vårt mjuka & hårda tunnbröd.<br />
+              Tunnbröd bakas även på beställning. Kontakta oss gärna för önskan
+              om större kvantiteter än 2 påsar.
+            </p>
+            <div class="pt-3">
+              <a href="#contact">
+                <button class="main-button d-flex">beställ</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="stugor" class="stugor">
+        <div class="stugor__article d-flex">
+          <h2 class="stugor__headline d-flex text-center">Våra Stugor</h2>
+          <p class="p text-center">
+            Hyr någon av våra mysiga och välutrustade fjällstugor på gården!
+          </p>
+        </div>
+        <div class="stugor__row d-flex">
+          <a href="#" class="stugor__col lo d-flex mb-3">
+            <h2 class="h2 stugor__text">Lostugan</h2>
+          </a>
+          <a href="#" class="stugor__col bjorn d-flex mb-3">
+            <h2 class="h2 stugor__text">Björnstugan</h2>
+          </a>
+          <a href="#" class="stugor__col jarven d-flex mb-3">
+            <h2 class="h2 stugor__text">Järven</h2>
+          </a>
+        </div>
+      </section>
+      <section id="cafe" class="cafe d-flex">
+        <div class="cafe__container container-xl d-flex">
+          <div class="bageri__article d-flex">
+            <h2 class="pb-2 h2">Bertas Café & Fjällpub</h2>
+            <p class="">
+              Caféet på Nysäterns Fjällgård har sedan 1960-talet serverat goda
+              frasvåfflor och är ett populärt utflyktsmål i Sonfjällsbygden.
+            </p>
+            <p class="pt-3">
+              CAFÉ<br />Vinter 21-22<br />
+              Anrika våffelcaféet<br />
+              öppnar åter i juletid<br /><br />
+              FJÄLLPUB<br />
+              Fjällpuben med råvaror från bygden.<br />
+              Öppnar igen till vintersäsongen 2022.
+            </p>
+            <div class="pt-3">
+              <button class="main-button d-flex">meny</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact d-flex">
+        <div class="contact__container container-xl d-flex">
+          <div class="bageri__article d-flex">
+            <h2 class="pb-5 d-flex">Kontakta oss</h2>
+            <div class="row mb-4">
+              <i class="col-1 icon fas fa-envelope"></i>
+              <h3 class="col-7 mb-0">info@nysaternsfjallgard.se</h3>
+            </div>
+            <div class="row mb-4">
+              <i class="col-1 icon fas fa-phone-alt"></i>
+              <h3 class="col-7 mb-0">073 80 86 066</h3>
+            </div>
+            <div class="row mb-4">
+              <i class="col-1 icon fas fa-map-marker-alt"></i>
+              <h3 class="col-7 mb-0">Nysätern 510, 840 93 Hede</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
