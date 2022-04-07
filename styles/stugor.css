@@ -1,0 +1,40 @@
+.prev-btn {
+    position: absolute;
+    top: 33%;
+    left: 3%;
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 60px;
+}
+
+.prev-btn:hover {
+    color: rgb(255, 255, 255);
+}
+
+.next-btn {
+    position: absolute;
+    top: 33%;
+    right: 3%;
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 60px;
+}
+
+.next-btn:hover {
+    color: rgb(255, 255, 255);
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon {
+    font-size: 18px;
+    color: rgb(117, 51, 51);
+}
+
+#carousel__slide {
+    box-shadow: -12px 12px 0px 0px rgb(117, 51, 51);
+}

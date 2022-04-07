@@ -45,7 +45,7 @@
       <video autoplay loop muted playsinline class="header__video-mobile">
         <source src="assets/header-mobile.mp4" type="video/mp4" />
       </video>
-      <nav class="navbar navbar-expand-lg navbar-dark px-5 py-0">
+      <nav class="navbar navbar-expand-lg navbar-dark px-md-5 px-3 py-0">
         <a href="index.html" class="navbar-brand">
           <img
             src="assets/logotype-white.svg"
@@ -129,7 +129,7 @@
             />
           </div>
           <div class="about__col-2 d-flex">
-            <h2>Välkommen till oss</h2>
+            <h2 class="pt-3 pt-md-0">Välkommen till oss</h2>
             <h3>till en levande fäbod vid sonfjällets fot!</h3>
             <p class="p about__text">
               Vi som driver Nysäterns Fjällgård heter Marika och Pecka. Vi bor
@@ -143,7 +143,9 @@
               omväxling. Höstnaturen är frisk, färgrik och full med smakrika
               skatter att samla in.
             </p>
-            <button class="main-button">Läs mer</button>
+            <a href="pages/about.html">
+              <button class="main-button">Läs mer</button>
+            </a>
           </div>
           <div class="about__img-mobile pt-4">
             <img
@@ -185,13 +187,13 @@
           </p>
         </div>
         <div class="stugor__row d-flex">
-          <a href="#" class="stugor__col lo d-flex mb-3">
+          <a href="pages/actvities/cabins/lo.html" class="stugor__col lo d-flex mb-3">
             <h2 class="h2 stugor__text">Lostugan</h2>
           </a>
-          <a href="#" class="stugor__col bjorn d-flex mb-3">
+          <a href="pages/actvities/cabins/bjorn.html" class="stugor__col bjorn d-flex mb-3">
             <h2 class="h2 stugor__text">Björnstugan</h2>
           </a>
-          <a href="#" class="stugor__col jarven d-flex mb-3">
+          <a href="pages/actvities/cabins/jarven.html" class="stugor__col jarven d-flex mb-3">
             <h2 class="h2 stugor__text">Järven</h2>
           </a>
         </div>
@@ -238,7 +240,23 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-container">
+        <div>
+          <h2 class="footer-header">Öppettider</h2>
+          <p>STUGUTHYRNING & KONFERENS<br>
+            Öppet året om.<br><br>
+            VÅFFELCAFÉ<br>
+            Öppnar för vintersäsongen<br>
+            27 januari 2022<br>
+            FJÄLLBAGERIET<br><br>
+            Öppet för beställning via mail eller 073-808 60 66 <br><br>
+            BERTA's Fjällpub & Mat<br>
+            Öppnas senare på säsongen</p>
+
+        </div>
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

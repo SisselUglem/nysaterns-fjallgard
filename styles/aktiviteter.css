@@ -43,7 +43,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 110vh;
 }
 .aktivitet {
   border-left: 1px solid rgb(29, 29, 29);
@@ -53,8 +53,37 @@
   flex-direction: row;
 }
 
-@media screen and (max-width: 770px) { 
 
+/*----------OM OSS--------------*/
+
+.about {
+  background-image: url(../assets/konferens.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grid-img-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.img-gallery-item {
+  display: grid;
+  max-width: 200px;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 770px) { 
+  .grid-img-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 800px) {

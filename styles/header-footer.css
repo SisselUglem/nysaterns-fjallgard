@@ -6,8 +6,8 @@
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 0.9rem !important;
   padding-left: 0.9rem !important;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 35px !important;
+  padding-bottom: 35px !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -16,11 +16,23 @@
   line-height: 19px;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-dark .navbar-toggler {
+    color: transparent !important; 
+    border-color: transparent !important;
+}
+
 .nav-item:hover {
   background-color: rgb(117, 51, 51);
 }
 
 footer {
   background-color: rgba(33, 33, 33, 1);
-  height: 30vh;
+  height: fit-content;
 }
